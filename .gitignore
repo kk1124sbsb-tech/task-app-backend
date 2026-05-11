@@ -9,6 +9,13 @@ bin/
 # Go module
 task-app-backend
 
+# Environment variables (SECURITY!)
+.env
+*.env
+
+# Go workspace file
+go.work
+
 # OS metadata
 .DS_Store
 Thumbs.db
